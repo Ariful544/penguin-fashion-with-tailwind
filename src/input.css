@@ -13,4 +13,7 @@
     .bordered{
         @apply border border-solid border-red-500;
     }
+    .btn-primary{
+        @apply uppercase py-4 px-8 font-medium rounded-lg text-white bg-gradient-to-b from-lime-500 to-lime-600 hover:bg-gradient-to-t hover:from-lime-500 hover:to-lime-600 flex gap-2 items-center;
+    }
 }
